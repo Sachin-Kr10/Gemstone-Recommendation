@@ -1,0 +1,652 @@
+[
+  {
+    "id": 1,
+    "name": "Ruby",
+    "description": "The king of gemstones, Ruby symbolizes passion, protection, and prosperity. Its deep red hue has captivated humanity for centuries.",
+    "color": "Red",
+    "colorHex": "#E0115F",
+    "hardness": 9,
+    "planet": "Sun",
+    "element": "Fire",
+    "chakra": "Heart",
+    "zodiacSigns": ["Leo", "Aries", "Sagittarius"],
+    "properties": {
+      "healing": "Boosts energy, improves circulation, detoxifies blood",
+      "spiritual": "Enhances courage, passion, and leadership qualities",
+      "emotional": "Promotes self-confidence and determination"
+    },
+    "goals": ["career", "wealth", "health"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Ring finger",
+      "metal": "Gold",
+      "day": "Sunday",
+      "mantra": "Om Suryaya Namaha"
+    },
+    "image": "ruby"
+  },
+  {
+    "id": 2,
+    "name": "Blue Sapphire",
+    "description": "A powerful stone of wisdom and royalty, Blue Sapphire brings mental clarity, spiritual insight, and protection from negative energies.",
+    "color": "Blue",
+    "colorHex": "#0F52BA",
+    "hardness": 9,
+    "planet": "Saturn",
+    "element": "Air",
+    "chakra": "Throat",
+    "zodiacSigns": ["Capricorn", "Aquarius", "Virgo"],
+    "properties": {
+      "healing": "Calms the mind, reduces inflammation, aids throat issues",
+      "spiritual": "Enhances intuition, wisdom, and spiritual awareness",
+      "emotional": "Promotes mental discipline and focus"
+    },
+    "goals": ["career", "spiritual", "health"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "Silver or White Gold",
+      "day": "Saturday",
+      "mantra": "Om Shanishcharaya Namaha"
+    },
+    "image": "blue-sapphire"
+  },
+  {
+    "id": 3,
+    "name": "Emerald",
+    "description": "The stone of successful love, Emerald brings loyalty, unity, and unconditional love. It enhances memory and mental clarity.",
+    "color": "Green",
+    "colorHex": "#50C878",
+    "hardness": 7.5,
+    "planet": "Mercury",
+    "element": "Earth",
+    "chakra": "Heart",
+    "zodiacSigns": ["Gemini", "Virgo", "Taurus"],
+    "properties": {
+      "healing": "Improves eyesight, boosts immunity, aids recovery",
+      "spiritual": "Enhances communication and intellectual growth",
+      "emotional": "Promotes harmony, patience, and love"
+    },
+    "goals": ["love", "career", "health"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Gold",
+      "day": "Wednesday",
+      "mantra": "Om Budhaya Namaha"
+    },
+    "image": "emerald"
+  },
+  {
+    "id": 4,
+    "name": "Yellow Sapphire",
+    "description": "A stone of wisdom and prosperity, Yellow Sapphire attracts wealth, good fortune, and academic success.",
+    "color": "Yellow",
+    "colorHex": "#FFD700",
+    "hardness": 9,
+    "planet": "Jupiter",
+    "element": "Fire",
+    "chakra": "Solar Plexus",
+    "zodiacSigns": ["Sagittarius", "Pisces", "Leo"],
+    "properties": {
+      "healing": "Aids digestion, boosts metabolism, strengthens liver",
+      "spiritual": "Enhances wisdom, optimism, and spiritual growth",
+      "emotional": "Promotes joy, generosity, and self-expression"
+    },
+    "goals": ["wealth", "career", "spiritual"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Index finger",
+      "metal": "Gold",
+      "day": "Thursday",
+      "mantra": "Om Gurave Namaha"
+    },
+    "image": "yellow-sapphire"
+  },
+  {
+    "id": 5,
+    "name": "Pearl",
+    "description": "Symbol of purity and emotional balance, Pearl calms the mind, nurtures love, and brings peace to the wearer.",
+    "color": "White",
+    "colorHex": "#FDEEF4",
+    "hardness": 3.5,
+    "planet": "Moon",
+    "element": "Water",
+    "chakra": "Crown",
+    "zodiacSigns": ["Cancer", "Pisces", "Scorpio"],
+    "properties": {
+      "healing": "Balances hormones, aids skin health, calms nerves",
+      "spiritual": "Enhances feminine energy and emotional healing",
+      "emotional": "Promotes calmness, nurturing, and sincerity"
+    },
+    "goals": ["love", "health", "spiritual"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Silver",
+      "day": "Monday",
+      "mantra": "Om Chandraya Namaha"
+    },
+    "image": "pearl"
+  },
+  {
+    "id": 6,
+    "name": "Red Coral",
+    "description": "A powerful protective stone, Red Coral boosts courage, vitality, and physical strength. It guards against negativity.",
+    "color": "Red",
+    "colorHex": "#CD5C5C",
+    "hardness": 3.5,
+    "planet": "Mars",
+    "element": "Fire",
+    "chakra": "Root",
+    "zodiacSigns": ["Aries", "Scorpio", "Leo"],
+    "properties": {
+      "healing": "Strengthens bones, purifies blood, boosts immunity",
+      "spiritual": "Enhances courage, determination, and willpower",
+      "emotional": "Overcomes fear, laziness, and procrastination"
+    },
+    "goals": ["health", "career", "wealth"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Ring finger",
+      "metal": "Gold or Copper",
+      "day": "Tuesday",
+      "mantra": "Om Mangalaya Namaha"
+    },
+    "image": "red-coral"
+  },
+  {
+    "id": 7,
+    "name": "Hessonite Garnet",
+    "description": "Known as Gomed, this stone neutralizes the malefic effects of Rahu, bringing clarity and removing confusion.",
+    "color": "Brown",
+    "colorHex": "#8B4513",
+    "hardness": 7,
+    "planet": "Rahu",
+    "element": "Air",
+    "chakra": "Third Eye",
+    "zodiacSigns": ["Aquarius", "Gemini", "Virgo"],
+    "properties": {
+      "healing": "Aids allergies, digestive issues, and skin problems",
+      "spiritual": "Clears confusion, enhances focus and meditation",
+      "emotional": "Reduces anxiety, fear of the unknown"
+    },
+    "goals": ["career", "health", "spiritual"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "Silver",
+      "day": "Saturday",
+      "mantra": "Om Rahave Namaha"
+    },
+    "image": "hessonite"
+  },
+  {
+    "id": 8,
+    "name": "Cat's Eye",
+    "description": "A mysterious stone associated with Ketu, Cat's Eye provides protection, intuition, and liberation from material bonds.",
+    "color": "Green",
+    "colorHex": "#6B8E23",
+    "hardness": 8.5,
+    "planet": "Ketu",
+    "element": "Earth",
+    "chakra": "Crown",
+    "zodiacSigns": ["Pisces", "Sagittarius", "Scorpio"],
+    "properties": {
+      "healing": "Aids recovery from chronic diseases, strengthens nerves",
+      "spiritual": "Enhances psychic abilities, spiritual liberation",
+      "emotional": "Detachment from materialism, inner peace"
+    },
+    "goals": ["spiritual", "health", "wealth"],
+    "priceRange": "mid",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "Gold or Silver",
+      "day": "Thursday",
+      "mantra": "Om Ketave Namaha"
+    },
+    "image": "cats-eye"
+  },
+  {
+    "id": 9,
+    "name": "Diamond",
+    "description": "The ultimate symbol of love and luxury, Diamond enhances creativity, brings clarity of mind, and attracts abundance.",
+    "color": "White",
+    "colorHex": "#B9F2FF",
+    "hardness": 10,
+    "planet": "Venus",
+    "element": "Air",
+    "chakra": "Crown",
+    "zodiacSigns": ["Taurus", "Libra", "Gemini"],
+    "properties": {
+      "healing": "Purifies body systems, enhances brain function",
+      "spiritual": "Amplifies energy of other stones, brings inner vision",
+      "emotional": "Promotes love, faithfulness, and purity"
+    },
+    "goals": ["love", "wealth", "career"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Middle or Ring finger",
+      "metal": "Platinum or White Gold",
+      "day": "Friday",
+      "mantra": "Om Shukraya Namaha"
+    },
+    "image": "diamond"
+  },
+  {
+    "id": 10,
+    "name": "Amethyst",
+    "description": "The stone of tranquility, Amethyst purifies the mind, reduces stress, and enhances spiritual awareness.",
+    "color": "Purple",
+    "colorHex": "#9966CC",
+    "hardness": 7,
+    "planet": "Saturn",
+    "element": "Water",
+    "chakra": "Third Eye",
+    "zodiacSigns": ["Pisces", "Aquarius", "Virgo"],
+    "properties": {
+      "healing": "Relieves headaches, reduces insomnia, detoxifies",
+      "spiritual": "Enhances meditation, psychic awareness, intuition",
+      "emotional": "Calms anger, promotes emotional balance"
+    },
+    "goals": ["spiritual", "health", "love"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "Silver",
+      "day": "Saturday",
+      "mantra": "Om Shanishcharaya Namaha"
+    },
+    "image": "amethyst"
+  },
+  {
+    "id": 11,
+    "name": "Citrine",
+    "description": "Known as the merchant's stone, Citrine attracts prosperity, success, and abundance. It radiates positive energy.",
+    "color": "Yellow",
+    "colorHex": "#E4D00A",
+    "hardness": 7,
+    "planet": "Jupiter",
+    "element": "Fire",
+    "chakra": "Solar Plexus",
+    "zodiacSigns": ["Sagittarius", "Leo", "Aries"],
+    "properties": {
+      "healing": "Boosts metabolism, improves digestion, energizes",
+      "spiritual": "Manifests abundance, enhances creativity",
+      "emotional": "Promotes optimism, joy, and self-confidence"
+    },
+    "goals": ["wealth", "career", "health"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Index finger",
+      "metal": "Gold",
+      "day": "Thursday",
+      "mantra": "Om Gurave Namaha"
+    },
+    "image": "citrine"
+  },
+  {
+    "id": 12,
+    "name": "Rose Quartz",
+    "description": "The universal stone of love, Rose Quartz opens the heart to compassion, self-love, and deep inner healing.",
+    "color": "Pink",
+    "colorHex": "#F7CAC9",
+    "hardness": 7,
+    "planet": "Venus",
+    "element": "Water",
+    "chakra": "Heart",
+    "zodiacSigns": ["Taurus", "Libra", "Cancer"],
+    "properties": {
+      "healing": "Improves circulation, aids fertility, reduces wrinkles",
+      "spiritual": "Opens heart chakra, enhances unconditional love",
+      "emotional": "Heals heartbreak, promotes forgiveness and trust"
+    },
+    "goals": ["love", "health", "spiritual"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Ring finger",
+      "metal": "Silver or Rose Gold",
+      "day": "Friday",
+      "mantra": "Om Shukraya Namaha"
+    },
+    "image": "rose-quartz"
+  },
+  {
+    "id": 13,
+    "name": "Topaz",
+    "description": "A stone of strength and intelligence, Topaz sharpens the mind, attracts success, and promotes emotional stability.",
+    "color": "Blue",
+    "colorHex": "#4FC3F7",
+    "hardness": 8,
+    "planet": "Jupiter",
+    "element": "Fire",
+    "chakra": "Throat",
+    "zodiacSigns": ["Sagittarius", "Scorpio", "Leo"],
+    "properties": {
+      "healing": "Aids digestion, stimulates metabolism, improves vision",
+      "spiritual": "Enhances truth-seeking and spiritual attunement",
+      "emotional": "Promotes honesty, forgiveness, and joy"
+    },
+    "goals": ["career", "spiritual", "love"],
+    "priceRange": "mid",
+    "wearingInstructions": {
+      "finger": "Index finger",
+      "metal": "Gold",
+      "day": "Thursday",
+      "mantra": "Om Gurave Namaha"
+    },
+    "image": "topaz"
+  },
+  {
+    "id": 14,
+    "name": "Aquamarine",
+    "description": "The sailor's gem, Aquamarine evokes the purity of crystal blue waters. It promotes courage, clarity, and communication.",
+    "color": "Blue",
+    "colorHex": "#7FFFD4",
+    "hardness": 7.5,
+    "planet": "Neptune",
+    "element": "Water",
+    "chakra": "Throat",
+    "zodiacSigns": ["Pisces", "Aquarius", "Gemini"],
+    "properties": {
+      "healing": "Soothes sore throats, reduces allergies, calms nerves",
+      "spiritual": "Enhances clairvoyance and spiritual communication",
+      "emotional": "Reduces fear, promotes tolerance and peace"
+    },
+    "goals": ["love", "spiritual", "health"],
+    "priceRange": "mid",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Silver or White Gold",
+      "day": "Wednesday",
+      "mantra": "Om Budhaya Namaha"
+    },
+    "image": "aquamarine"
+  },
+  {
+    "id": 15,
+    "name": "Garnet",
+    "description": "A revitalizing stone, Garnet inspires love, devotion, and energizes the spirit. It balances energy and brings serenity.",
+    "color": "Red",
+    "colorHex": "#722F37",
+    "hardness": 7,
+    "planet": "Mars",
+    "element": "Fire",
+    "chakra": "Root",
+    "zodiacSigns": ["Aries", "Leo", "Capricorn"],
+    "properties": {
+      "healing": "Boosts metabolism, regenerates cells, purifies blood",
+      "spiritual": "Grounds energy, enhances commitment and devotion",
+      "emotional": "Inspires love, overcomes depression"
+    },
+    "goals": ["love", "health", "career"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Ring finger",
+      "metal": "Gold or Copper",
+      "day": "Tuesday",
+      "mantra": "Om Mangalaya Namaha"
+    },
+    "image": "garnet"
+  },
+  {
+    "id": 16,
+    "name": "Opal",
+    "description": "The queen of gems, Opal is a stone of inspiration, imagination, and creativity. Its play of colors symbolizes cosmic fire.",
+    "color": "White",
+    "colorHex": "#A8C3BC",
+    "hardness": 6,
+    "planet": "Venus",
+    "element": "Water",
+    "chakra": "Crown",
+    "zodiacSigns": ["Libra", "Cancer", "Pisces"],
+    "properties": {
+      "healing": "Strengthens memory, purifies blood, regulates insulin",
+      "spiritual": "Amplifies traits, enhances cosmic consciousness",
+      "emotional": "Promotes creativity, spontaneity, and emotional freedom"
+    },
+    "goals": ["love", "spiritual", "career"],
+    "priceRange": "mid",
+    "wearingInstructions": {
+      "finger": "Ring finger",
+      "metal": "Silver or Platinum",
+      "day": "Friday",
+      "mantra": "Om Shukraya Namaha"
+    },
+    "image": "opal"
+  },
+  {
+    "id": 17,
+    "name": "Turquoise",
+    "description": "An ancient talisman of protection, Turquoise is a purification stone that dispels negative energy and promotes wisdom.",
+    "color": "Blue",
+    "colorHex": "#40E0D0",
+    "hardness": 6,
+    "planet": "Jupiter",
+    "element": "Earth",
+    "chakra": "Throat",
+    "zodiacSigns": ["Sagittarius", "Scorpio", "Aquarius"],
+    "properties": {
+      "healing": "Anti-inflammatory, aids respiratory system, detoxifies",
+      "spiritual": "Enhances communication with spiritual realm",
+      "emotional": "Promotes self-realization, inner calm"
+    },
+    "goals": ["spiritual", "health", "career"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Index finger",
+      "metal": "Silver",
+      "day": "Thursday",
+      "mantra": "Om Gurave Namaha"
+    },
+    "image": "turquoise"
+  },
+  {
+    "id": 18,
+    "name": "Lapis Lazuli",
+    "description": "The stone of truth and enlightenment, Lapis Lazuli stimulates objectivity, clarity, and encourages creativity.",
+    "color": "Blue",
+    "colorHex": "#26619C",
+    "hardness": 5.5,
+    "planet": "Saturn",
+    "element": "Air",
+    "chakra": "Third Eye",
+    "zodiacSigns": ["Sagittarius", "Libra", "Aquarius"],
+    "properties": {
+      "healing": "Lowers blood pressure, boosts immunity, aids throat",
+      "spiritual": "Opens third eye, enhances dream work and intuition",
+      "emotional": "Promotes self-awareness, honesty, and compassion"
+    },
+    "goals": ["spiritual", "career", "love"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "Gold or Silver",
+      "day": "Saturday",
+      "mantra": "Om Shanishcharaya Namaha"
+    },
+    "image": "lapis-lazuli"
+  },
+  {
+    "id": 19,
+    "name": "Moonstone",
+    "description": "The traveler's stone, Moonstone harnesses the energy of the moon. It enhances intuition, promotes inspiration, and brings good fortune.",
+    "color": "White",
+    "colorHex": "#C4AEAD",
+    "hardness": 6,
+    "planet": "Moon",
+    "element": "Water",
+    "chakra": "Third Eye",
+    "zodiacSigns": ["Cancer", "Libra", "Scorpio"],
+    "properties": {
+      "healing": "Balances hormones, aids fertility, soothes digestion",
+      "spiritual": "Enhances psychic abilities, dream clarity",
+      "emotional": "Promotes emotional stability, calms overreaction"
+    },
+    "goals": ["love", "spiritual", "health"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Silver",
+      "day": "Monday",
+      "mantra": "Om Chandraya Namaha"
+    },
+    "image": "moonstone"
+  },
+  {
+    "id": 20,
+    "name": "Peridot",
+    "description": "The gem of the sun, Peridot radiates warmth and well-being. It attracts love, calms anger, and brings prosperity.",
+    "color": "Green",
+    "colorHex": "#B4D626",
+    "hardness": 6.5,
+    "planet": "Mercury",
+    "element": "Earth",
+    "chakra": "Heart",
+    "zodiacSigns": ["Leo", "Virgo", "Gemini"],
+    "properties": {
+      "healing": "Strengthens immune system, aids digestion, heals ulcers",
+      "spiritual": "Enhances confidence, assertion without aggression",
+      "emotional": "Reduces jealousy, resentment, and spite"
+    },
+    "goals": ["health", "love", "wealth"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Gold",
+      "day": "Wednesday",
+      "mantra": "Om Budhaya Namaha"
+    },
+    "image": "peridot"
+  },
+  {
+    "id": 21,
+    "name": "Tanzanite",
+    "description": "A rare and extraordinary gem found only in Tanzania, Tanzanite facilitates higher consciousness and stimulates perception.",
+    "color": "Purple",
+    "colorHex": "#4D4DFF",
+    "hardness": 6.5,
+    "planet": "Saturn",
+    "element": "Air",
+    "chakra": "Third Eye",
+    "zodiacSigns": ["Sagittarius", "Capricorn", "Pisces"],
+    "properties": {
+      "healing": "Aids cell regeneration, strengthens immune system",
+      "spiritual": "Facilitates deep meditation, psychic powers",
+      "emotional": "Overcomes depression, anxiety, and fear"
+    },
+    "goals": ["spiritual", "career", "health"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "White Gold or Platinum",
+      "day": "Saturday",
+      "mantra": "Om Shanishcharaya Namaha"
+    },
+    "image": "tanzanite"
+  },
+  {
+    "id": 22,
+    "name": "Tiger's Eye",
+    "description": "A stone of protection and power, Tiger's Eye combines the energy of the sun and earth. It promotes integrity and willpower.",
+    "color": "Brown",
+    "colorHex": "#B8860B",
+    "hardness": 7,
+    "planet": "Sun",
+    "element": "Fire",
+    "chakra": "Solar Plexus",
+    "zodiacSigns": ["Leo", "Capricorn", "Gemini"],
+    "properties": {
+      "healing": "Balances endocrine system, reduces pain, heals bones",
+      "spiritual": "Enhances personal power, practical decision-making",
+      "emotional": "Promotes courage, self-confidence, and grounding"
+    },
+    "goals": ["career", "wealth", "health"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Ring finger",
+      "metal": "Gold",
+      "day": "Sunday",
+      "mantra": "Om Suryaya Namaha"
+    },
+    "image": "tigers-eye"
+  },
+  {
+    "id": 23,
+    "name": "Jade",
+    "description": "The dream stone, Jade is a symbol of serenity, purity, and wisdom. It attracts good luck and lasting friendship.",
+    "color": "Green",
+    "colorHex": "#00A86B",
+    "hardness": 7,
+    "planet": "Venus",
+    "element": "Earth",
+    "chakra": "Heart",
+    "zodiacSigns": ["Taurus", "Libra", "Pisces"],
+    "properties": {
+      "healing": "Aids kidneys, removes toxins, enhances immune system",
+      "spiritual": "Promotes harmony, balance, and self-sufficiency",
+      "emotional": "Calms the mind, releases negative thoughts"
+    },
+    "goals": ["love", "health", "wealth"],
+    "priceRange": "mid",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Silver or Gold",
+      "day": "Friday",
+      "mantra": "Om Shukraya Namaha"
+    },
+    "image": "jade"
+  },
+  {
+    "id": 24,
+    "name": "Alexandrite",
+    "description": "The chameleon gem, Alexandrite changes color from green in daylight to red in lamplight. It symbolizes luck and good fortune.",
+    "color": "Green",
+    "colorHex": "#008B8B",
+    "hardness": 8.5,
+    "planet": "Mercury",
+    "element": "Air",
+    "chakra": "Heart",
+    "zodiacSigns": ["Gemini", "Scorpio", "Cancer"],
+    "properties": {
+      "healing": "Aids nervous system, regenerates cells, reduces inflammation",
+      "spiritual": "Enhances intuition, bridges physical and spiritual",
+      "emotional": "Promotes joy, purpose, and emotional maturity"
+    },
+    "goals": ["career", "love", "spiritual"],
+    "priceRange": "premium",
+    "wearingInstructions": {
+      "finger": "Little finger",
+      "metal": "Gold or Platinum",
+      "day": "Wednesday",
+      "mantra": "Om Budhaya Namaha"
+    },
+    "image": "alexandrite"
+  },
+  {
+    "id": 25,
+    "name": "Onyx",
+    "description": "A powerful protection stone, Onyx absorbs negative energy and promotes strength, stamina, and self-control.",
+    "color": "Black",
+    "colorHex": "#353839",
+    "hardness": 7,
+    "planet": "Saturn",
+    "element": "Earth",
+    "chakra": "Root",
+    "zodiacSigns": ["Capricorn", "Leo", "Scorpio"],
+    "properties": {
+      "healing": "Strengthens bones, teeth, and immune system",
+      "spiritual": "Grounds energy, enhances endurance and persistence",
+      "emotional": "Promotes vigor, steadfastness, and stamina"
+    },
+    "goals": ["career", "health", "wealth"],
+    "priceRange": "affordable",
+    "wearingInstructions": {
+      "finger": "Middle finger",
+      "metal": "Silver",
+      "day": "Saturday",
+      "mantra": "Om Shanishcharaya Namaha"
+    },
+    "image": "onyx"
+  }
+]
