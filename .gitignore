@@ -36,3 +36,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Local project documentation (ignored on GitHub)
+PROJECT_NOTES.md
+AI_USAGE.md
