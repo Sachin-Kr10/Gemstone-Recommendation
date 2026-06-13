@@ -116,8 +116,3 @@ The Python engine uses a **weighted scoring system**:
 3. **Budget Fit (20%)** — Filters stones within the selected price range
 4. **Color Preference (15%)** — Boosts stones matching the preferred color family
 
----
-
-## 📄 License
-
-This project is for educational and evaluation purposes.
